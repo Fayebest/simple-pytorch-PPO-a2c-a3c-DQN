@@ -9,12 +9,12 @@ Compared with other implementation or frameword of RL, it has the following adva
  * the training speed is relatively fast(tested in gym)
  * simple, easy to read and understand, suitable for beginners
  
- #Quick Start
+ ## Quick Start
  
- *PPO
+ * PPO
  `run train_ppo.py`
  
- #强化学习算法的简单实现
+ ## 强化学习算法的简单实现
  
  这是对许多强化学习算法的pytorch实现，现在已经实现了
  * Proximal Policy Optimization PPO
