@@ -11,7 +11,7 @@ Compared with other implementation or frameword of RL, it has the following adva
  
  #Quick Start
  
- ## PPO
+ *PPO
  `run train_ppo.py`
  
  #强化学习算法的简单实现
