@@ -7,9 +7,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="7c6db9d0-6dc8-4b14-b32b-598ada60aef2" />
   <component name="ProjectId" id="1hUexyFMBnJpGZS4gVny5fba5sv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,9 +27,53 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PPO/PPO-PyTorch-master/PPO-PyTorch-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rl_complent/pytorch-dqn-master/pytorch-dqn-master" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="all_simple_rl_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="all_simple_rl_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/train_dqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train_test_ppo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="all_simple_rl_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train_dqn" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.train_test_ppo" />
       </list>
     </recent_temporary>
@@ -61,7 +115,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600070348715</updated>
       <workItem from="1600070351917" duration="2684000" />
-      <workItem from="1600242338249" duration="5990000" />
+      <workItem from="1600242338249" duration="13450000" />
+      <workItem from="1600269372747" duration="913000" />
+      <workItem from="1600689966298" duration="88000" />
+      <workItem from="1600690067443" duration="706000" />
+      <workItem from="1600912608602" duration="58217000" />
     </task>
     <servers />
   </component>
@@ -69,28 +127,54 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="306" key="FileChooserDialogImpl" timestamp="1600247295903">
+    <state x="525" y="306" key="FileChooserDialogImpl" timestamp="1601034186135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="306" key="FileChooserDialogImpl/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600247295903" />
-    <state width="1093" height="433" key="GridCell.Tab.0.bottom" timestamp="1600248282676">
+    <state x="525" y="306" key="FileChooserDialogImpl/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601034186135" />
+    <state width="1620" height="154" key="GridCell.Tab.0.bottom" timestamp="1601263735349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="433" key="GridCell.Tab.0.bottom/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600248282676" />
-    <state width="1093" height="433" key="GridCell.Tab.0.center" timestamp="1600248282676">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/-1920.65.1920.1040/0.0.1920.1040@-1920.65.1920.1040" timestamp="1600267592110" />
+    <state width="1620" height="154" key="GridCell.Tab.0.bottom/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263735349" />
+    <state width="1620" height="154" key="GridCell.Tab.0.center" timestamp="1601263735349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="433" key="GridCell.Tab.0.center/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600248282676" />
-    <state width="1093" height="433" key="GridCell.Tab.0.left" timestamp="1600248282676">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/-1920.65.1920.1040/0.0.1920.1040@-1920.65.1920.1040" timestamp="1600267592110" />
+    <state width="1620" height="154" key="GridCell.Tab.0.center/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263735349" />
+    <state width="1620" height="154" key="GridCell.Tab.0.left" timestamp="1601263735349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="433" key="GridCell.Tab.0.left/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600248282676" />
-    <state width="1093" height="433" key="GridCell.Tab.0.right" timestamp="1600248282676">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/-1920.65.1920.1040/0.0.1920.1040@-1920.65.1920.1040" timestamp="1600267592110" />
+    <state width="1620" height="154" key="GridCell.Tab.0.left/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263735349" />
+    <state width="1620" height="154" key="GridCell.Tab.0.right" timestamp="1601263735349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="433" key="GridCell.Tab.0.right/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600248282676" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/-1920.65.1920.1040/0.0.1920.1040@-1920.65.1920.1040" timestamp="1600267592110" />
+    <state width="1620" height="154" key="GridCell.Tab.0.right/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263735349" />
+    <state x="467" y="153" width="865" height="951" key="dock-window-1" timestamp="1600958649612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="467" y="153" width="865" height="951" key="dock-window-1/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600958649612" />
+    <state x="154" y="52" width="1203" height="1042" key="dock-window-2" timestamp="1601042334496">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="154" y="52" width="1203" height="1042" key="dock-window-2/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601042334496" />
+    <state x="483" y="49" width="955" height="975" key="dock-window-3" timestamp="1601263734829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="49" width="955" height="975" key="dock-window-3/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263734829" />
+    <state x="-1869" y="186" width="1746" height="1050" key="dock-window-4" timestamp="1601263734829">
+      <screen x="-1920" y="65" width="1920" height="1040" />
+    </state>
+    <state x="-1869" y="186" width="1746" height="1050" key="dock-window-4/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601263734829" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600927897906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.65.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600927897906" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/all_simple_rl_algorithm$train_test_ppo.coverage" NAME="train_test_ppo Coverage Results" MODIFIED="1600248282670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simPPO" />
+    <SUITE FILE_PATH="coverage/all_simple_rl_algorithm$train_test_ppo.coverage" NAME="train_test_ppo Coverage Results" MODIFIED="1600926985104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simPPO" />
+    <SUITE FILE_PATH="coverage/all_simple_rl_algorithm$test.coverage" NAME="test Coverage Results" MODIFIED="1601261873109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/all_simple_rl_algorithm$train_dqn.coverage" NAME="train_dqn Coverage Results" MODIFIED="1601263212954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
   </component>
 </project>

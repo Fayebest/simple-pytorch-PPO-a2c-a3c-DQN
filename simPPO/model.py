@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 from torch.distributions import Categorical
-import gym
 import numpy as np
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -14,8 +13,6 @@ class ActorCritic(nn.Module):
         self.action_layer = nn.Sequential(
             nn.Linear(state_dim, n_latent_var),
             nn.Tanh(),
-            nn.Linear(n_latent_var, n_latent_var),
-            nn.Tanh(),
             nn.Linear(n_latent_var, action_dim),
             nn.Softmax(dim=-1)
         )
@@ -24,9 +21,7 @@ class ActorCritic(nn.Module):
         self.value_layer = nn.Sequential(
             nn.Linear(state_dim, n_latent_var),
             nn.Tanh(),
-            nn.Linear(n_latent_var, n_latent_var),
-            nn.Tanh(),
-            nn.Linear(n_latent_var, 1)
+            nn.Linear(n_latent_var,1)
         )
 
     def forward(self):

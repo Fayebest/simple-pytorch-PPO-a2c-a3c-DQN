@@ -32,7 +32,6 @@ class PPO:
             discounted_reward = reward + (self.gamma * discounted_reward)
             rewards.insert(0, discounted_reward)
 
-        memory.computerewards = rewards
 
         # Normalizing the rewards:
         rewards = torch.tensor(rewards).float().to(device)
